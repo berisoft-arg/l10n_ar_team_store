@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_saleorder_document_inherit_branch" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//t[@t-set='address']" position="before">
+            <t t-if="doc.team_id and doc.team_id.l10n_ar_afip_pos_partner_id">
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <strong>Establecimiento:</strong>
+                        <div><span t-field="doc.team_id.l10n_ar_afip_pos_partner_id.name"/></div>
+                        
+                        <div t-field="doc.team_id.l10n_ar_afip_pos_partner_id"
+                             t-options='{"widget": "contact", "fields": ["address", "phone", "email"], "no_marker": True}'/>
+                        
+                        </div>
+                </div>
+                <hr/>
+            </t>
+        </xpath>
+    </template>
+</odoo>

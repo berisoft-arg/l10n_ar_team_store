@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="crm_team_view_form_inherit_branch" model="ir.ui.view">
+        <field name="name">crm.team.form.inherit.branch</field>
+        <field name="model">crm.team</field>
+        <field name="inherit_id" ref="sales_team.crm_team_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="l10n_ar_afip_pos_partner_id" options="{'no_create': True}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

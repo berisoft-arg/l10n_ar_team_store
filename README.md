@@ -1,7 +1,7 @@
 Sucursales por Equipo de Ventas (Argentina)
 
 
-Gestión de Sucursales para Odoo 17 (Argentina)
+Gestión de Sucursales para Odoo (Argentina)
 ==============================================
 Este módulo automatiza la asignación de sucursales y restringe la validación de stock según el equipo de ventas:
 

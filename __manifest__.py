@@ -5,7 +5,7 @@
     'author': 'Ariel Ameghino/Berisoft',
     'summary': 'Gestión de sucursales basada en Equipos de Venta para Ventas, Facturación e Inventario.',
     'description': """
-Gestión de Sucursales para Odoo 17 (Argentina)
+Gestión de Sucursales para Odoo (Argentina)
 ==============================================
 Este módulo automatiza la asignación de sucursales y restringe la validación de stock según el equipo de ventas:
 

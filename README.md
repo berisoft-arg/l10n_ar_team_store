@@ -33,6 +33,4 @@ CONFIGURACION:
 3. Mapeo de Recursos:
     Asignar Equipos en Almacenes: En la configuración del almacén, vinculá el equipo de venta autorizado. Si se deja vacío, el almacén será Global.
 
-    Asignar Equipos en Diarios: Vinculá el diario con su equipo.
-
-Filtro Visual de Diarios: En la interfaz de facturación, los usuarios solo ven los diarios que pertenecen a su equipo (o los globales), evitando errores de carga.
+    Asignar Equipos en Diarios: Vinculá el diario con su equipo, los usuarios solo verán los diarios que pertenecen a su equipo (o los globales).
